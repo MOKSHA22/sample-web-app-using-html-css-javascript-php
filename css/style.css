@@ -1,0 +1,434 @@
+body {
+	margin-top: 49px;
+	padding: 0;
+	background: #242424;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #BBBBBB;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	text-transform: lowercase;
+	font-weight: normal;
+	color: #48ACDE;
+}
+
+h1 {
+	letter-spacing: -1px;
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+p, ul, ol {
+	margin: 0 0 2em 0;
+	text-align: justify;
+	line-height: 26px;
+}
+
+/*Links*/
+a:link {
+	color: #48ACDE;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	color: #48ACDE;
+}
+
+a:visited {
+	color: #48ACDE;
+}
+
+/** LOGO */
+
+#banner {
+	width: 620px;
+	height: 240px;
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+	background: #BCE03E url(images/img04.jpg) no-repeat left top;
+}
+
+#logo {
+	width: 820px;
+	height: 60px;
+	margin: 0 auto;
+}
+
+#logo h1, #logo h2 {
+	float: left;
+	margin: 0;
+	padding: 0 0 0 20px;
+	line-height: normal;
+}
+
+#logo h1 { 
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:36px;
+	font-style: italic;
+}
+
+#logo h1 a {
+	text-decoration: none;
+	color: #FFFFFF; 
+}
+
+#logo h1 a:hover { text-decoration: underline; }
+
+#logo h2 {
+	padding: 20px 0 0 5px;
+	font: italic 13px Georgia, "Times New Roman", Times, serif;
+	color: ##48ACDE;
+}
+
+#logo p a {
+	text-decoration: none;
+	color: #B6ACA2;
+}
+
+#logo p a:hover { text-decoration: underline; }
+
+
+#wrapper {
+	width: 860px;
+	margin: 0 auto;
+	background: #000000 url(images/img02.jpg) no-repeat left top;
+}
+
+#wrapper-btm {
+	background: url(images/img03.jpg) no-repeat left bottom;
+}
+
+/* Menu */
+
+#menu {
+	float: left;
+	width: 860px;
+	height: 54px;
+	padding-left: 10px;
+	background: url(images/img01.jpg) no-repeat left top;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0 0 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: block;
+	float: left;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	margin-right: 3px;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-transform: lowercase;
+	font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+
+#menu a:hover { 
+	text-decoration: none; 
+	color: #48ACDE;
+}
+
+#menu .current_page_item a {
+	color: #48ACDE;
+}
+
+/*Wrapper*/
+
+#wrapper {
+	width: 860px;
+	margin: 0 auto;
+	background: #000000 url(../images/img02.jpg) no-repeat left top;
+}
+
+#wrapper-btm {
+	background: url(../images/img03.jpg) no-repeat left bottom;
+}
+
+/* Page */
+
+#page {
+	width: 860px;
+	margin: 0 auto;
+	padding-top: 20px;
+}/* Header */
+
+#header {
+	clear: both;
+	width: 860px;
+	height: 52px;
+	margin: 0 auto;
+	background: url(../images/img02.jpg) no-repeat left top;
+}
+
+/* Menu */
+
+#menu {
+	float: left;
+	width: 860px;
+	height: 54px;
+	padding-left: 10px;
+	background: url(../images/img01.jpg) no-repeat left top;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0 0 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: block;
+	float: left;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	margin-right: 3px;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-transform: lowercase;
+	font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+
+#menu a:hover { 
+	text-decoration: none; 
+	color: #48ACDE;
+}
+
+#menu .current_page_item a {
+	color: #48ACDE;
+}
+
+/* Page */
+
+#page {
+	width: 860px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+
+/* Content */
+
+#content {
+	float: right;
+	width: 620px;
+}
+
+/* Post */
+
+.post {
+	padding: 15px 15px;
+}
+
+.post .title {
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+}
+
+.post h1 {
+}
+
+.post h2 {
+	height: 32px;
+	padding: 8px 0 0 15px;
+	font-size: 18px;
+	color: #DADADA;
+}
+
+/*Images*/
+
+#right .thumbnails li {
+	float: left;
+	margin: 0 21px 18px 0;
+}
+
+/*About Us page*/
+#modules-holder .module h2 {
+	font-family:'Museo700';
+	font-size:18px;
+	font-weight:normal;
+	margin-bottom:5px;
+	padding-left:25px;
+}
+
+#modules-holder .module p {
+	color: #6a6a6a;
+	line-height: 15px;
+}
+
+/*Gallery page*/
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/* Contact Us page*/
+#address {
+	font-size: 18px;
+	color: #DADADA;
+}
+
+/*Register Page*/
+
+form {
+  /*text-align: center;*/
+}
+
+label {
+  display: block;
+  letter-spacing: 4px;
+  padding-top: 30px;
+  /*text-align: center;*/
+}
+
+
+label .label-text {
+  color: black;
+  cursor: text;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  -moz-transform: translateY(-34px);
+  -ms-transform: translateY(-34px);
+  -webkit-transform: translateY(-34px);
+  transform: translateY(-34px);
+  transition: all 0.3s;
+}
+
+
+label input {
+  background-color: #56c1ff;
+  opacity:0.7;
+  border-radius:25px;
+  border-bottom: 5px solid white;
+  color: white;
+  font-size: 36px;
+  letter-spacing: -1px;
+  outline: 0;
+  padding: 5px 20px;
+  text-align: center;
+  text-padding:2px;
+  transition: all 0.3s;
+  width: 400px;
+}
+
+
+label input:focus {
+  max-width: 100%;
+  width: 600px;
+}
+
+
+label input:valid + .label-text {
+  font-size: 20px;
+  -moz-transform: translateY(-74px);
+  -ms-transform: translateY(-74px);
+  -webkit-transform: translateY(-74px);
+  transform: translateY(-80px);
+}
+
+button {
+  width:200px;
+  height:50px;
+  background-color: gray;
+  border: 2px solid white;
+  border-radius: 27px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  transition: all 200ms;
+}
+
+
+button:hover, button:focus {
+  background-color: white;
+  color: #333333;
+  outline: 0;
+}
+
+/*News letter*/
+#newsletter	{
+			padding:5px;
+			}
+			
+					
+#newsletter input[type="email"]	{
+								padding:4px;
+								height:25px;
+								width:250px;
+								}
